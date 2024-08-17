@@ -1,0 +1,10 @@
+@import "../color.module.scss";
+
+.number_input {
+    border: none;
+    border-bottom: 2px solid $athens-gray;
+
+    &:focus {
+        outline: 0;
+    }
+}

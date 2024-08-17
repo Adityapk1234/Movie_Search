@@ -1,0 +1,203 @@
+$start-value: 0;
+$end-value: 500;
+
+@for $i from $start-value through $end-value {
+    $conversion-value: $i / 16;
+
+    // border-radius
+    .border-radius-#{$i}px {
+        border-radius: $conversion-value * 1rem;
+    }
+
+    .border-radius-tlr-#{$i}px {
+        border-top-left-radius: $conversion-value * 1rem;
+        border-top-right-radius: $conversion-value * 1rem;
+    }
+
+    .border-radius-blr-#{$i}px {
+        border-bottom-left-radius: $conversion-value * 1rem;
+        border-bottom-right-radius: $conversion-value * 1rem;
+    }
+
+    .border-radius-trbr-#{$i}px {
+        border-top-right-radius: $conversion-value * 1rem;
+        border-bottom-right-radius: $conversion-value * 1rem;
+    }
+
+    .border-radius-tlbl-#{$i}px {
+        border-top-left-radius: $conversion-value * 1rem;
+        border-bottom-left-radius: $conversion-value * 1rem;
+    }
+
+    .border-radius-tl-#{$i}px {
+        border-top-left-radius: $conversion-value * 1rem;
+    }
+
+    .border-radius-tr-#{$i}px {
+        border-top-right-radius: $conversion-value * 1rem;
+    }
+
+    .border-radius-bl-#{$i}px {
+        border-bottom-left-radius: $conversion-value * 1rem;
+    }
+
+    .border-radius-br-#{$i}px {
+        border-bottom-right-radius: $conversion-value * 1rem;
+    }
+
+    // padding-all
+    .padding-#{$i}px-all {
+        padding: $conversion-value * 1rem;
+    }
+
+    // padding-top
+    .padding-#{$i}px-top {
+        padding-top: $conversion-value * 1rem;
+    }
+
+    // padding-bottom
+    .padding-#{$i}px-bottom {
+        padding-bottom: $conversion-value * 1rem;
+    }
+
+    // padding-left
+    .padding-#{$i}px-left {
+        padding-left: $conversion-value * 1rem;
+    }
+
+    // padding-right
+    .padding-#{$i}px-right {
+        padding-right: $conversion-value * 1rem;
+    }
+
+    // padding top and bottom
+    .padding-#{$i}px-tb {
+        padding-top: $conversion-value * 1rem;
+        padding-bottom: $conversion-value * 1rem;
+    }
+
+    // padding left and right
+    .padding-#{$i}px-lr {
+        padding-left: $conversion-value * 1rem;
+        padding-right: $conversion-value * 1rem;
+    }
+
+    // margin-all
+    .margin-#{$i}px-all {
+        margin: $conversion-value * 1rem;
+    }
+
+    // margin-top
+    .margin-#{$i}px-top {
+        margin-top: $conversion-value * 1rem;
+    }
+
+    // margin-bottom
+    .margin-#{$i}px-bottom {
+        margin-bottom: $conversion-value * 1rem;
+    }
+
+    // margin-left
+    .margin-#{$i}px-left {
+        margin-left: $conversion-value * 1rem;
+    }
+
+    // margin-right
+    .margin-#{$i}px-right {
+        margin-right: $conversion-value * 1rem;
+    }
+
+    // margin top and bottom
+    .margin-#{$i}px-tb {
+        margin-top: $conversion-value * 1rem;
+        margin-bottom: $conversion-value * 1rem;
+    }
+
+    // margin left and right
+    .margin-#{$i}px-lr {
+        margin-left: $conversion-value * 1rem;
+        margin-right: $conversion-value * 1rem;
+    }
+
+    // gap
+    .gap-#{$i}px {
+        gap: $conversion-value * 1rem;
+    }
+
+    .row-gap-#{$i}px {
+        row-gap: $conversion-value * 1rem;
+    }
+
+    .top-#{$i}px {
+        top: $conversion-value * 1rem;
+    }
+
+    .right-#{$i}px {
+        right: $conversion-value * 1rem;
+    }
+
+    .left-#{$i}px {
+        left: $conversion-value * 1rem;
+    }
+
+    .bottom-#{$i}px {
+        bottom: $conversion-value * 1rem;
+    }
+
+    .bottom--#{$i}px {
+        bottom: -$conversion-value * 1rem;
+    }
+
+    .top--#{$i}px {
+        top: -$conversion-value * 1rem;
+    }
+
+    .right--#{$i}px {
+        right: -$conversion-value * 1rem;
+    }
+
+    .w-#{$i}px {
+        width: $conversion-value * 1rem;
+    }
+
+    .h-#{$i}px {
+        height: $conversion-value * 1rem;
+    }
+
+    .min-w-#{$i}px {
+        min-width: $conversion-value * 1rem;
+    }
+
+    .min-h-#{$i}px {
+        min-height: $conversion-value * 1rem;
+    }
+
+    .max-h-#{$i}px {
+        max-height: $conversion-value * 1rem;
+    }
+
+    .max-w-#{$i}px {
+        max-width: $conversion-value * 1rem;
+    }
+
+    // font and line height
+    .e-font-#{$i} {
+        font-size: $conversion-value * 1rem;
+    }
+
+    .e-line-height-#{$i} {
+        line-height: $conversion-value * 1rem;
+    }
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.h-fit-content {
+    height: fit-content !important;
+}
+
+.z-index-1 {
+    z-index: 1
+}
