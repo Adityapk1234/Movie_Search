@@ -7,7 +7,7 @@ function App() {
 
 
   return (
-    <Router>
+    <Router basename="/movie-search">
 
       <div className="container">
         <Routes>
