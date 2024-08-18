@@ -1,6 +1,9 @@
+I have used Atomic structure way of coding. Breaking things down into small, reusable parts. For example, I create tiny components like buttons or input fields, which I can then combine to build bigger pieces of the UI. It’s like how atoms come together to form molecules. I have added 4 different ways of finding movies i.e. via searching, date range, vote count and genre. I have created 3 pages i.e. 
+1. For listing
+2. Movie detail
+3. Favourite listing
+Possible improvement would be visual appeal of the application, date range fix to keep the modal open until selected both dates, adding more filters, maybe a side navigation bar as well.
 The elements I think I did well are with regards to code reusability, maintainability. With having different components, I can figure out where exactly the problem lies if any comes up.
-
-The things I would like to improve would be the way movie details show up and a way to goback to the original page after viewing the movie details.
 
 # Getting Started with Create React App
 
