@@ -1,10 +1,3 @@
-/*
- *   File : calender.js
- *   Author : https://evoqins.com
- *   Description : Calendar component
- *   Integrations : react-day-picker
- *   Version : 1.0.0
-*/
 
 import React, { Fragment, useEffect, useRef, useState } from 'react';
 import { DayPicker } from 'react-day-picker';
